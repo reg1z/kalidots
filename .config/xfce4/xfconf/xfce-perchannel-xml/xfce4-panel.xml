@@ -38,11 +38,11 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="recent" type="array">
+        <value type="string" value="xfce-wm-settings.desktop"/>
         <value type="string" value="xfce-wmtweaks-settings.desktop"/>
         <value type="string" value="kali-tweaks.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="onboard.desktop"/>
-        <value type="string" value="xfce-wm-settings.desktop"/>
         <value type="string" value="xfce-workspaces-settings.desktop"/>
         <value type="string" value="xfce4-settings-editor.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
@@ -74,7 +74,7 @@
     </property>
     <property name="plugin-8" type="string" value="separator"/>
     <property name="plugin-9" type="string" value="pager">
-      <property name="miniature-view" type="bool" value="false"/>
+      <property name="miniature-view" type="bool" value="true"/>
       <property name="rows" type="uint" value="1"/>
       <property name="wrap-workspaces" type="bool" value="true"/>
       <property name="workspace-scrolling" type="bool" value="true"/>
